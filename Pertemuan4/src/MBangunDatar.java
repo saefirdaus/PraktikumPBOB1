@@ -1,5 +1,5 @@
 /* Nama File    : MBangunDatar.java
- * Deskripsi    : berisi atribut dan method dalam superclass BangunDatar
+ * Deskripsi    : Driver class BangunDatar
  * Pembuat      : Rizky Saefirdaus - 24060124120001
  * Tanggal      : 18/03/2026
  */

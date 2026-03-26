@@ -1,7 +1,7 @@
-/* Nama File    : BangunDatar.java
- * Deskripsi    : berisi atribut dan method dalam subclass BangunDatar
+/* Nama File    : Persegi.java
+ * Deskripsi    : Berisi Atribute dan Method dalam class Persegi
  * Pembuat      : Rizky Saefirdaus - 24060124120001
- * Tanggal      : 18/03/2026
+ * Tanggal      : 26/03/2026
  */
 
 public class Persegi extends BangunDatar implements IResize{
@@ -17,10 +17,9 @@ public class Persegi extends BangunDatar implements IResize{
     // konstruktor bangun datar persegi dengan parameter
     public Persegi(double xSisi, String warna, String border){
         super(4, warna, border);
-        this.sisi = xSisi;
-        // setWarna(warna);
-        // setBorder(border);
-        // setJmlSisi(4); 
+        if(xSisi == 4){
+            this.sisi = xSisi;
+        }
     }
 
     // method selektor sisi persegi
@@ -55,21 +54,25 @@ public class Persegi extends BangunDatar implements IResize{
         System.out.println("Sisi: " + sisi);
     }
 
-    // IResize methods
+    // method menampilkan zoomIn persegi
     @Override
     public void zoomIN() {
         sisi = sisi * 1.1;
     }
 
+    // method menampilkan zoomOut persegi
     @Override
-    public void zoomOut() {
+    public void zoomOut(){
         sisi = sisi * 0.9;
     }
 
+    // method menampilkan zoom persegi
     @Override
-    public void zoom(int percent) {
-        sisi = sisi * (1 + percent/100.0);
+    public void zoom(int percent){
+        sisi = sisi * percent/100;
     }
+
+
 
 
 }
