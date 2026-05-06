@@ -1,0 +1,8 @@
+Simpulkan bagaimana cara kerja konsep Generik sesuai kalimat Anda sendiri!
+
+Intinya tuh konsep generik itu kayak jalan pintas biar kita nggak capek nulis codingan yang sama berulang-ulang cuma karena tipe datanya beda. 
+Kodenya jadi lebih luwes dan gampang dipake lagi buat apa aja.
+ 
+Ibaratnya kita bikin wadah kayak Data<T>, nah huruf T itu ibarat slot kosong yang bisa kita isi bebas, mau pake Integer, String, atau tipe lainnya.
+Asiknya lagi, pake generik ini bikin program kita lebih aman dari error pas dijalanin, soalnya tipe datanya tuh udah bener-bener dipastiin dari awal pas objeknya dibuat. 
+Terus, satu fungsi ujung-ujungnya jadi bisa dipakai buat nanganin berbagai macam tipe data sekaligus asalkan masih sesuai aja sama batasannya gitu.
