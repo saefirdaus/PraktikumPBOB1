@@ -1,3 +1,10 @@
+/**
+ * NIM          : 24060124120001
+ * Nama         : Rizky Saefirdaus
+ * File         : LambdaList.java
+ * Deskripsi    : Class LambdaList, class yang menggunakan lambda expression untuk mengoperasikan list
+**/
+
 import java.util.ArrayList;
 
 public class LambdaList {

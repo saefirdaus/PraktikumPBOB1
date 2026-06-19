@@ -1,3 +1,10 @@
+/**
+ * NIM          : 24060124120001
+ * Nama         : Rizky Saefirdaus
+ * File         : DiskonLambda.java
+ * Deskripsi    : Class DiskonLambda, class yang menggunakan lambda expression untuk menghitung diskon
+**/
+
 interface IDiskon {
     public double hitungDiskon(int harga);
 }
